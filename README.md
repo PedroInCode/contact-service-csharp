@@ -21,6 +21,17 @@ A API permite o gerenciamento completo de uma agenda de contatos:
 - **Atualizar contato**: Edita informações de contatos existentes.
 - **Remover contato**: Exclusão definitiva de registros.
 
+## 📋 Status do Projeto
+
+- [x] Configuração do ambiente de desenvolvimento (Visual Studio 2026 + SQL Server)
+- [x] Criação do repositório e estruturação inicial
+- [ ] Implementação da conexão com banco de dados e Migrations
+- [ ] Desenvolvimento dos Controllers e Endpoints CRUD
+- [ ] Validação de regras de negócio (e-mail, campos obrigatórios)
+- [ ] Testes finais e documentação no Scalar
+
+> **Nota:** O projeto está atualmente em **fase de estudo e testes**. Estou seguindo o cronograma de aprendizado para consolidar os fundamentos de ASP.NET Core. 🚧
+
 ## ⚙️ Como rodar o projeto na sua máquina
 
 1. **Clone o repositório**:
