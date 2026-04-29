@@ -8,32 +8,27 @@ O desenvolvimento foi realizado acompanhando o conteúdo da **Crislaine D'Paula*
 
 * **C# / .NET 10**: Versão mais atual do framework, focada em alta performance.
 * **ASP.NET Core Web API**: Estrutura robusta para criação de endpoints REST.
-* **Entity Framework Core**: ORM para mapeamento e manipulação de dados de forma simplificada.
-* **SQL Server**: Banco de dados relacional para armazenamento seguro das informações.
-* **Scalar**: Interface interativa de documentação e testes (sucessor do Swagger no .NET 10).
+* **Entity Framework Core**: ORM para mapeamento e manipulação de dados.
+* **SQL Server**: Banco de dados relacional para armazenamento seguro.
+* **Scalar**: Interface moderna para documentação e testes de API.
 
-## 🛠️ Funcionalidades
+## 🛠️ Funcionalidades Implementadas
 
-A API permite o gerenciamento completo de uma agenda de contatos:
-- **Listar contatos**: Recupera todos os registros do banco de dados.
-- **Buscar por ID**: Localiza um contato específico.
-- **Criar contato**: Adiciona novos registros com validação de formato de e-mail.
-- **Atualizar contato**: Edita informações de contatos existentes.
-- **Remover contato**: Exclusão definitiva de registros.
+A API possui o gerenciamento completo de uma agenda de contatos:
+- **Listar contatos (GET)**: Recupera todos os registros.
+- **Buscar por ID (GET)**: Localiza um contato específico com tratamento de erro 404.
+- **Criar contato (POST)**: Adiciona novos registros ao banco.
+- **Atualizar contato (PUT)**: Edita informações de contatos existentes.
+- **Remover contato (DELETE)**: Exclussão definitiva de registros.
+- **Validação**: Regras de negócio aplicadas (ex: formato de e-mail).
 
 ## 📋 Status do Projeto
 
 - [x] Configuração do ambiente de desenvolvimento (Visual Studio 2026 + SQL Server)
 - [x] Criação do repositório e estruturação inicial
-- [ ] Implementação da conexão com banco de dados e Migrations
-- [ ] Desenvolvimento dos Controllers e Endpoints CRUD
-- [ ] Validação de regras de negócio (e-mail, campos obrigatórios)
-- [ ] Testes finais e documentação no Scalar
+- [x] Implementação da conexão com banco de dados e Migrations
+- [x] Desenvolvimento de todos os Endpoints CRUD
+- [x] Validação de regras de negócio
+- [x] Documentação interativa via Scalar
 
-> **Nota:** O projeto está atualmente em **fase de estudo e testes**. Estou seguindo o cronograma de aprendizado para consolidar os fundamentos de ASP.NET Core. 🚧
-
-## ⚙️ Como rodar o projeto na sua máquina
-
-1. **Clone o repositório**:
-   ```bash
-   git clone [https://github.com/PedroInCode/contact-service-csharp.git](https://github.com/PedroInCode/contact-service-csharp.git)
+> **Nota Final:** Projeto concluído com sucesso! O sistema está totalmente funcional e integrado ao SQL Server. 🏆
