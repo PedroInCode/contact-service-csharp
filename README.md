@@ -1,4 +1,4 @@
-﻿# 📇 Contact Service API (.NET 10)
+# 📇 Contact Service API (.NET 9)
 
 Esta é uma **Web API de nível profissional** desenvolvida para o gerenciamento de contatos. O projeto foca em operações CRUD (Create, Read, Update, Delete) utilizando as tecnologias mais modernas do ecossistema Microsoft para 2026.
 
